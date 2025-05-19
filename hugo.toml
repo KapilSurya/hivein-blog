@@ -1,0 +1,9 @@
+baseURL = 'https://your-username.github.io/'  # Change later to blog.hivein.app
+languageCode = 'en-us'
+title = 'HiveIn Blog'
+theme = 'PaperMod'
+enableRobotsTXT = true
+
+[params]
+  author = "Team HiveIn"
+  description = "A blog about modern relationships, rituals, and real connection."
