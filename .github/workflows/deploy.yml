@@ -3,23 +3,26 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master' depending on your repo
+      - main
 
 jobs:
   deploy:
+    name: Build and Deploy
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v3
       with:
-        submodules: true  # Enables theme submodules
+        submodules: true  # make sure your Hugo theme gets cloned
+        fetch-depth: 0
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
 
-    - name: Build Site
+    - name: Build Hugo site
       run: hugo --minify
 
     - name: Deploy to GitHub Pages
