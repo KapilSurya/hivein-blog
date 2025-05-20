@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HiveIn Blog</title>
+    <link>https://blog.hivein.app/</link>
+    <description>Recent content on HiveIn Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.hivein.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Long Distance Couples Feel Closer</title>
+      <link>https://blog.hivein.app/posts/why-long-distance-couples-feel-closer/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.hivein.app/posts/why-long-distance-couples-feel-closer/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
