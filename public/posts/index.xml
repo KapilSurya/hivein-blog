@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on HiveIn Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.hivein.app/posts/</link>
     <description>Recent content in Posts on HiveIn Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.hivein.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Long Distance Couples Feel Closer</title>
-      <link>http://localhost:1313/posts/why-long-distance-couples-feel-closer/</link>
-      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-long-distance-couples-feel-closer/</guid>
-      <description></description>
+      <link>https://blog.hivein.app/posts/why-long-distance-couples-feel-closer/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.hivein.app/posts/why-long-distance-couples-feel-closer/</guid>
+      <description>How distance can sometimes strengthen emotional bonds, not break them.</description>
     </item>
   </channel>
 </rss>

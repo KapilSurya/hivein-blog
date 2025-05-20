@@ -2,24 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ .Title }} | HiveIn Blog</title>
-  <meta name="description" content="{{ .Summary }}" />
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <meta name="description" content="{{ .Summary }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ .Summary }}">
+  <meta property="og:image" content="{{ .Params.featured_image }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-  <main class="blog-container">
-    <h1 class="blog-title">{{ .Title }}</h1>
-    <p class="blog-meta">By Team HiveIn · {{ .Date.Format "January 2, 2006" }}</p>
-    <hr class="blog-divider" />
-    <div class="blog-content">
+
+  <main class="post-container">
+    {{ with .Params.featured_image }}
+      <img src="{{ . }}" alt="Cover image" class="featured-img" />
+    {{ end }}
+
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta">By Team HiveIn · {{ .Date.Format "Jan 2, 2006" }}</p>
+
+    <article class="post-content">
       {{ .Content }}
+    </article>
+
+    <div class="cta-box">
+      ❤️ Want a stronger relationship? <a href="https://hivein.app">Try HiveIn →</a>
     </div>
-    <hr class="blog-divider" />
-    <footer class="blog-footer">
-      ❤️ This article is part of the HiveIn mission to help couples grow closer —<br />
-      <a href="https://hivein.app">See what we're building →</a>
-    </footer>
   </main>
+
 </body>
 </html>

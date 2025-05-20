@@ -1,3 +1,4 @@
+publishDir = "public"
 baseURL = 'https://blog.hivein.app/'  # Change later to blog.hivein.app
 languageCode = 'en-us'
 title = 'HiveIn Blog'
