@@ -1,0 +1,27 @@
+<!-- layouts/_default/single.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ .Title }} | HiveIn Blog</title>
+  <meta name="description" content="{{ .Summary }}" />
+  <!-- ✅ CSS Stylesheet linked -->
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+</head>
+<body>
+  <main class="blog-container">
+    <h1 class="blog-title">{{ .Title }}</h1>
+    <p class="blog-meta">By Team HiveIn · {{ .Date.Format "January 2, 2006" }}</p>
+    <hr class="blog-divider"/>
+    <div class="blog-content">
+      {{ .Content }}
+    </div>
+    <hr class="blog-divider"/>
+    <footer class="blog-footer">
+      ❤️ This article is part of the HiveIn mission to help couples grow closer —<br/>
+      <a href="https://hivein.app">See what we're building →</a>
+    </footer>
+  </main>
+</body>
+</html>
