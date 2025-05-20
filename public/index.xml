@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HiveIn Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on HiveIn Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 May 2025 16:31:43 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Long Distance Couples Feel Closer</title>
+      <link>http://localhost:1313/posts/why-long-distance-couples-feel-closer/</link>
+      <pubDate>Mon, 19 May 2025 16:31:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/why-long-distance-couples-feel-closer/</guid>
+      <description>&lt;p&gt;If you’ve ever talked to a couple in a long-distance relationship&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
