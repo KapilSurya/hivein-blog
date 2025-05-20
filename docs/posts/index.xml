@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on HiveIn Blog</title>
     <link>https://blog.hivein.app/posts/</link>
     <description>Recent content in Posts on HiveIn Blog</description>
-    <generator>Hugo -- 0.147.3</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 May 2025 16:31:43 +0530</lastBuildDate>
     <atom:link href="https://blog.hivein.app/posts/index.xml" rel="self" type="application/rss+xml" />
